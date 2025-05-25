@@ -1,6 +1,6 @@
 from flask import Flask, render_template, jsonify
 import pandas as pd
-
+import charts
 # Initialize Flask app
 app = Flask(__name__)
 
